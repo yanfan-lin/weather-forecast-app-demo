@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+*.env
+
+# PyCharm project files
+.idea/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variable files
+*.env
+*.env.*
+
+# VSCode settings (optional, if you sometimes use VSCode too)
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# Logs
+*.log
+
+# Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.cache/
+nosetests.xml
+test_*.xml
+tests/__pycache__/
+
+# PEP 582; used by some tools like `pdm`
+__pypackages__/
+
+# API
+.env
