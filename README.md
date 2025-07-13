@@ -8,8 +8,8 @@ A simple web app built with [Streamlit](https://streamlit.io/) and [Plotly](http
 
 -  Search for any city
 -  Select forecast days (1–5)
--  View temperature trends (line chart)
--  View sky conditions (image icons)
+-  View temperature trends 
+-  View sky conditions
 -  Uses real-time data from OpenWeatherMap API
 
 ---
@@ -26,7 +26,7 @@ weather-forecast-app/
 - ├── app.py
 - ├── backend.py
 - ├── requirements.txt
-- ├── .env               ###(Not committed)###
+- ├── .env              
 - └── README.md
 
 ---
@@ -59,7 +59,7 @@ Create a .env file in the root of your project:
 API_KEY = your_api_key_here
 ```
 
-### ⚠️ Make sure .env is included in .gitignore so your key is not pushed to GitHub.
+### ⚠️ Make sure to include .env in .gitignore file
 
 ---
 
